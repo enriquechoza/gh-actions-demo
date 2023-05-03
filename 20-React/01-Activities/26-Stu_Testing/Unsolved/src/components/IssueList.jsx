@@ -1,5 +1,5 @@
 import React from 'react';
-import IssueItem from '../components/IssueItem';
+import IssueItem from './IssueItem';
 
 // Here we accept an array of issues as a prop
 const IssueList = ({ issues }) => {
@@ -9,7 +9,7 @@ const IssueList = ({ issues }) => {
   });
 
   // Here we return our array of IssueItems wrapped inside a parent div
-  return <div className="ui relaxed divided list">{renderedList}</div>;
+  return <div className='ui relaxed divided list'>{renderedList}</div>;
 };
 
 export default IssueList;
